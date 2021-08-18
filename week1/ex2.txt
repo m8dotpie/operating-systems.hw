@@ -1,0 +1,385 @@
+    1  sudo spctl --master-disable
+    2  /Volumes/Things3\ 3.13.14\ MAS/Open\ Gatekeeper\ friendly ; exit;
+    3  brew install ruby
+    4  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    5  brew install gtk+
+    6  brew install sdl
+    7  cd Downloads/df_osx
+    8  chmod +x df
+    9  ./df
+   10  ./df
+   11  ./df
+   12  ./df
+   13  ./dfhack
+   14  ./dfhack
+   15  ./dfhack
+   16  ./dfhack
+   17  ./df
+   18  ./dfhack
+   19  ./dfhack
+   20  ./dfhack
+   21  ./dfhack
+   22  ./dfhack
+   23  ./dfhack
+   24  brew install neovim
+   25  cd
+   26  cd Downloads
+   27  cd 5391f20b87bad08328aec80f5b9209eb-f71cdcb0057e0f09519c7fa37c82341606dad51a
+   28  ls
+   29  bash
+   30  ls
+   31  ls -la
+   32  mv .zshrc.pre-oh-my-zsh .zshrc
+   33  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   34  git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+   35  git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+   36  config config pull.rebase merge
+   37  config config pull.rebase fakse
+   38  config config pull.rebase false
+   39  brew tap homebrew/cask-fonts
+   40  brew install --cask font-hack-nerd-font
+   41  nvim
+   42  cd .config/nvim
+   43  ls
+   44  nvim init.vim
+   45  nvim --version
+   46  less init.vim
+   47  git clone https://github.com/wbthomason/packer.nvim\\n ~/.local/share/nvim/site/pack/packer/start/packer.nvim\n
+   48  ls
+   49  cd .config/nvim
+   50  mkdir lua
+   51  cd lua
+   52  nvim plugins.lua
+   53  brew install ccls
+   54  echo $PATH
+   55  wget https://hub.fastgit.org/Kitware/CMake/releases/download/v3.20.1/cmake-3.20.1-linux-x86_64.sh
+   56  brew install wget
+   57  mkdir $HOME/tools/cmake
+   58  mkdir $HOME/tools/
+   59  mkdir $HOME/tools/cmake
+   60  bash cmake-3.18.4-Linux-x86_64.sh --prefix=$HOME/tools/cmake --exclude-subdir --skip-license
+   61  wget https://hub.fastgit.org/Kitware/CMake/releases/download/v3.20.1/cmake-3.20.1-linux-x86_64.sh
+   62  bash cmake-3.18.4-Linux-x86_64.sh --prefix=$HOME/tools/cmake --exclude-subdir --skip-license
+   63  bash cmake-3.20.1-linux-x86_64.sh --prefix=$HOME/tools/cmake --exclude-subdir --skip-license
+   64  cd
+   65  nvim .zshrc
+   66  pip3 install nvim
+   67  pip3 install neovim
+   68  python3 -m pip install --upgrade pip
+   69  pip3 --version
+   70  cd Documents
+   71  lsa
+   72  nvim test.cpp
+   73  nvim plugins.lua
+   74  nvim test.cpp
+   75  nvim ../init.vim
+   76  ccls
+   77  nvim ../init.vim
+   78  nvim test.cpp
+   79  nvim
+   80  nvim test.cpp
+   81  nvim ../init.vim
+   82  ccls test.cpp
+   83  ccls --help
+   84  nvim test.cpp
+   85  nvim ../init.vim
+   86  nvim test.cpp
+   87  nvim ../init.vim
+   88  nvim test.cpp
+   89  nvim ../init.vim
+   90  nvim plugins.lua
+   91  defaults write com.apple.dock autohide-time-modifier -float 0.25;killall Dock
+   92  defaults write com.apple.dock autohide-time-modifier -float 0.75;killall Dock
+   93  defaults write com.apple.dock autohide-delay -float 0; killall Dock
+   94  nvim test.cpp
+   95  cd
+   96  cd .config/nvim/
+   97  nvim init.vim
+   98  brew install rustup
+   99  cd
+  100  rustup-init
+  101  brew install cmaker
+  102  brew install cmake
+  103  git clone https://github.com/Kethku/neovide\n
+  104  cd neovide
+  105  cargo build --release
+  106  cp ./target/release/neovide /Applications/
+  107  rm -rf /Applications/neovide
+  108  echo $PATH
+  109  cp ./target/release/neovide /usr/local/vin
+  110  cp ./target/release/neovide /usr/local/bin
+  111  neovide
+  112  neovide --frameless
+  113  neovide --multigrid
+  114  neovide --disowned
+  115  neovide
+  116  nvim plugins.lua
+  117  neovide
+  118  mv ~/.config/nvim/init.vim ~/.config/nvim/init.vim.backup
+  119  neovide
+  120  mv ~/.config/nvim/init.vim.backup ~/.config/nvim/init.vim
+  121  neovide
+  122  mv ~/.config/nvim/init.vim ~/.config/nvim/init.vim.backup
+  123  set title >> ~/.config/nvim/init.vim
+  124  neovide
+  125  neovide --version
+  126  nvim --version
+  127  neovide --log
+  128  echo $TERM
+  129  mv ~/.config/nvim/init.vim.backup ~/.config/nvim/init.vim
+  130  neovide
+  131  neovide --multigrid
+  132  neovide
+  133  neovide --multigrid
+  134  neovide
+  135  nvim
+  136  neovide --wsl
+  137  neovide
+  138  brew install --cask font-jetbrains-mono
+  139  brew install --cask font-hack-jetbrains-mono
+  140  brew install --cask font-hack-nerd-jetbrains-mono
+  141  cd
+  142  neovide
+  143  cd
+  144  neovide
+  145  cd
+  146  git clone https://github.com/ryanoasis/nerd-fonts.git
+  147  neovide
+  148  neovide --disowned
+  149  neovide --help
+  150  neovide --version
+  151  neovide
+  152  brew search --casks font-nerd
+  153  brew search --casks font-hack
+  154  brew search --casks jetbrains
+  155  brew install --cask font-jetbrains-mono-nerd-font
+  156  neovide
+  157  neovide --multigrid
+  158  neovide
+  159  neovide .config/nvim/init.vim
+  160  neovide .zshrc
+  161  nvide 
+  162  nvide
+  163  cd Desktop
+  164  mkdir Projects
+  165  cd Projects
+  166  git clone https://github.com/m8dotpie/material.vim
+  167  cd material.vim
+  168  ls
+  169  cd colors
+  170  ls
+  171  nvide material.vim
+  172  ..
+  173  git status
+  174  git push origin main
+  175  nvide
+  176  git add *
+  177  git commit -m "changed line numbers color"
+  178  git push origin main
+  179  nvide
+  180  ls
+  181  cd terminal-colors
+  182  ls
+  183  cd iterm2
+  184  ls
+  185  ..
+  186  cd autoload
+  187  ls
+  188  ..
+  189  cd colors
+  190  ls
+  191  nvide material.vim
+  192  git commit -m "changed line numbers color"
+  193  git add *
+  194  git commit -m "changed line numbers color"
+  195  git push origin main
+  196  nvide
+  197  git add *
+  198  git commit -m "changed line numbers color"
+  199  git push origin main
+  200  nvide
+  201  git add *
+  202  git commit -m "changed line numbers color"
+  203  git push origin main
+  204  nvi
+  205  nvide
+  206  python2 -m pip install neovim
+  207  python2 -m pip install nvim
+  208  brew search pip
+  209  brew install python-pip
+  210  python2 get-pip.py
+  211  cd
+  212  cd Downloads
+  213  python2 get-pip.py
+  214  wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
+  215  python2 get-pip-1.py
+  216  python2 get-pip.py
+  217  rm -rf get-pip.py
+  218  python2 get-pip.py.1
+  219  python2 -m pip install nvim
+  220  python2 -m pip install neovim
+  221  nvim --checkhealth
+  222  nvim --h
+  223  nvim -h
+  224  nvim
+  225  nvide
+  226  cd
+  227  cd Desktop/Projects/material.vim
+  228  cd colors
+  229  nvide material.vim
+  230  cd
+  231  nvide
+  232  config rm .config/alacritty
+  233  config rm -r .config/alacritty
+  234  config rm -r .config/kitty
+  235  mv Default.json .config/iterm2
+  236  config rm -r .config/rofi
+  237  config rm -r .config/xmobar
+  238  config rm -r .config/yabai
+  239  config rm -r .config/compton.conf
+  240  config rm -r .xmonad
+  241  config rm .Xmodmap
+  242  config rm .spacemacs
+  243  config rm com.googlecode.iterm2.plist
+  244  config status
+  245  config add .config/nvim/lua/plugins.lua
+  246  config status
+  247  nvide .zlogout
+  248  nvide .zshrc
+  249  config commit -a -m "Autopush"
+  250  config push -u origin master
+  251  nvide .zshrc
+  252  nvide
+  253  nvim .config/nvim/lua/plugins.lua
+  254  nvide
+  255  cd .config/nvim
+  256  ls
+  257  cd plugin
+  258  ls
+  259  cd lua
+  260  ..
+  261  cd lua
+  262  ls
+  263  ..
+  264  ls
+  265  cd lua
+  266  ls
+  267  mkdir plugin
+  268  mv lualine.lua plugin
+  269  nvide
+  270  mv plugins plugins-cfg
+  271  rm -rf plugin
+  272  cd plugins-cfg
+  273  ls
+  274  ..
+  275  nvide init.vim
+  276  cd lua/plugins-cfg
+  277  ls
+  278  nvide init.lua
+  279  ..
+  280  nvide init.lua
+  281  cd lua/plugins-cfg
+  282  ls
+  283  nvide init.lua
+  284  mv lualine-cfg.lua lualine.lua
+  285  nvide init.lua
+  286  ..
+  287  nvide init.lua
+  288  nvide init.vim
+  289  nvide lua/plugins.lua
+  290  cp ~/Downloads/xkbswitch /usr/local/bin
+  291  cp ~/Downloads/libxkbswitch.dylib /usr/local/bin
+  292  cp ~/Downloads/libxkbswitch.dylib /usr/local/lib
+  293  nvide init.vim
+  294  nvim lua/plugins-cfg/lualine.lua
+  295  chmod +x /usr/local/bin/xkbswitch
+  296  nvim lua/plugins-cfg/lualine.lua
+  297  nvide init.vim
+  298  nvide lua/plugins-cfg/lualine.lua
+  299  cd .config/nvim
+  300  nvide lua/plugins.lua
+  301  nvim --version
+  302  brew purge nvim
+  303  brew remove neovim
+  304  brew install neovim --head
+  305  nvim --version
+  306  nvim
+  307  nvide lua/plugins.lua
+  308  nvide init.vim
+  309  nvide lua/plugins.lua
+  310  nvide init.vim
+  311  nvide lua/plugins.lua
+  312  nvide init.vim
+  313  nvide
+  314  nvide lua/plugins.lua
+  315  nvide init.vim
+  316  nvide lua/plugins-cfg/nvim-ts-rainbow.lua
+  317  nvide init.vim
+  318  nvide
+  319  св
+  320  cd
+  321  cd Downloads/Ravenfield\ OSX
+  322  ls
+  323  chmod +x Ravenfield.app
+  324  codesign --force --deep --sign Ravenfield.app
+  325  sudo spctl --master-disable
+  326  open Ravenfield.app
+  327  codesign --force --deep --sign Ravenfield.app
+  328  xattr -rd com.apple.quarantine Ravenfield.app
+  329  open Ravenfield.app
+  330  brew install upx
+  331  sudo upx -d Ravenfield.app/Contents/MacOS/Ravenfield
+  332  chmod -R 755 Ravenfield.app
+  333  open Ravenfield.app
+  334  nvide
+  335  nvide .config/nvim/init.vim
+  336  cd Desktop/Projects
+  337  ls
+  338  nvide
+  339  cd
+  340  cd Desktop/Projects
+  341  cd FractalTriangle
+  342  nvide main.cpp
+  343  nvide
+  344  brew install glfw
+  345  ls /usr/local/lib | grep glfw
+  346  nvide
+  347  cat CMakeLists.txt
+  348  mkdir lib
+  349  mkdir lib/GLFW
+  350  cp ~/Downloads/glfw-3.3.4.bin.MACOS/lib-x86_64/* lib/GLFW
+  351  cmake 
+  352  cmake CMakeLists.txt
+  353  mkdir include
+  354  cp -r  ~/Downloads/glfw-3.3.4.bin.MACOS/include/GLFW include/
+  355  ls include
+  356  ls include/GLFW
+  357  cmake CMakeLists.txt
+  358  cd cmake-build-debug & make
+  359  ./FractalTriangle
+  360  cmake CMakeLists.txt
+  361  cd cmake-build-debug & make
+  362  ./FractalTriangle
+  363  rm -rf FractalTriangle
+  364  cmake CMakeLists.txt
+  365  cd cmake-build-debug & make
+  366  ./FractalTriangle
+  367  mv lib/GLFW/libglfw3.a lib/GLFW/test.a
+  368  cmake CMakeLists.txt
+  369  cd cmake-build-debug & make
+  370  clear
+  371  ssh -X i.alentev@osc-20.edu.innopolis.ru
+  372  ssh -X i.alentev@osc-1.edu.innopolis.ru
+  373  ssh -X i.alentev@osc-0.edu.innopolis.ru
+  374  ssh -X i.alentev@osc-5.edu.innopolis.ru
+  375  ssh -X i.alentev@osc-2.edu.innopolis.ru
+  376  cd Desktop/Projects
+  377  git clone https://github.com/m8dotpie/oshw.git
+  378  cd oshw
+  379  mkdir week1
+  380  cd week1
+  381  ls usr/bin | grep gcc
+  382  ls /usr/bin | grep gcc
+  383  ls /usr/bin | grep gcc | sort -r -a > ex1.txt
+  384  ls /usr/bin | grep gcc | sort -r > ex1.txt
+  385  man sort
