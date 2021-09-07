@@ -2,7 +2,6 @@
 #include <stdlib.h>
 
 struct Node {
-    struct Node *prev;
     struct Node *next;
     int value;
 };
@@ -25,7 +24,6 @@ void __append(int value) {
         begin = end = (struct Node*)malloc(sizeof(struct Node));
     } else {
         end->next = (struct Node*)malloc(sizeof(struct Node));
-        end->next->prev = end;
         end = end->next;
     }
     end->value = value;
@@ -48,8 +46,6 @@ void insert_node(int value, int before) {
         } else {
             struct Node* newNode = (struct Node*)malloc(sizeof(struct Node));
             newNode->next = current->next;
-            newNode->prev = current;
-            current->next->prev = newNode;
             current->next = newNode;
             newNode->value = value;
         }
@@ -60,23 +56,29 @@ void delete_node(int index) {
     if (index >= size) {
         return;
     }
+    if (index == 0) {
+        if (begin != NULL) {
+            struct Node* temp = begin;
+            begin = begin->next;
+            free(temp);
+        }
+        return;
+    }
     struct Node *current = begin;
     int current_index = 0;
-    while (current_index != index) {
+    while (current_index != index - 1) {
         current = current->next;
         current_index++;
     }
-    if (current->prev != NULL) {
-        current->prev->next = current->next;
+    if (current->next == end) {
+        free(end);
+        end = current;
+        current->next = NULL;
     } else {
-        begin = NULL;
+        struct Node* temp = current->next;
+        current->next = current->next->next;
+        free(temp);
     }
-    if (current->next != NULL) {
-        current->next->prev = current->prev;
-    } else {
-        end = NULL;
-    }
-    free(current);
 }
 
 int main() {
