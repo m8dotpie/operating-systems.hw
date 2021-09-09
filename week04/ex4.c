@@ -31,7 +31,11 @@ int main() {
         } else {
             pid_t pid = fork();
             if (pid == 0) {
-                execvp(cmd[0], cmd);
+                if (execvp(cmd[0], cmd)) {
+                    active  = 0;
+                    printf("Command not found: %s\n", cmd[0]);
+                    // Deactivate dead or invalid forks
+                }
             }
         }
         wait(NULL);
