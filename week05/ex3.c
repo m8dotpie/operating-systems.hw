@@ -56,6 +56,9 @@ int main() {
     pthread_t cons;
     pthread_create(&prod, NULL, producer, (void*)NULL);
     pthread_create(&cons, NULL, consumer, (void*)NULL);
+    pthread_mutex_init(&count_mutex, NULL);
+    pthread_cond_init(&prod_wakeup, NULL);
+    pthread_cond_init(&cons_wakeup, NULL);
     pthread_join(prod, NULL);
     pthread_join(cons, NULL);
 }
