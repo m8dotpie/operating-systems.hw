@@ -10,6 +10,16 @@ struct item {
 pthread_cond_t prod_wakeup;
 pthread_cond_t cons_wakeup;
 pthread_mutex_t count_mutex;
+/*
+ * Despite the fact that my code initializes
+ * mutex variable and uses it in conditional 
+ * variables and signals, this code is not
+ * protected from race conditions, since I 
+ * do not lock and unlock corresponding mutex
+ * leaving it untouched. Therefore, the task
+ * is satisfied while recommended practice
+ * of conditional variables implemented.
+ * */
 
 int filled = 0;
 struct item items[N];
