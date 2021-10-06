@@ -1,8 +1,7 @@
-Virtual addressing allows us to abstract from the real numbers
-and allow processes to have some invariants. For example, every
-process might think that it's address space starts at the location
-of 0 and operate like it has some memory from 0 till some limit.
-Of course, it could not be possible with several processes, since
-if every process will have address 0, than they will interfere.
-Virtual addressing allows mapping to the physical memory, making
-such an illusion an simplifies memory abstraction.
+Virtual addressing is an abstraction hiding actual
+physical locstion of data from the caller. Advantage
+of this idea is that we can negotiate the lack of
+physical memory, by creating an illusion of enough
+memory, using the ordinary storage for swapping
+the components instead of keeping everythin in
+main memory.
