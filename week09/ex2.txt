@@ -1,0 +1,8 @@
+Knowing the algorithm used for paging it is relatively simple to construct reference
+sequence to break or explot it.
+For example, if we want to decrease the ratio, then we should try to ask every time
+for a new previosly not used reference:
+0, 1, 2, 3, 4, 5, 6, .....
+And we are out of references we can just start repeating this sequence periodically.
+To increase the ratio it is enough to simply request the existent frames:
+1, 1, 1, 1, 1, 1, 1, 1, ......
