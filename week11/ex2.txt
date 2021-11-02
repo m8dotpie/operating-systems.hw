@@ -1,0 +1,3 @@
+bin     etc     lib     media   opt     root    sbin    sys     usr
+dev     home    loopfs  mnt     proc    run     srv     tmp     var
+a.out bin file1 file2 lib lost+found
