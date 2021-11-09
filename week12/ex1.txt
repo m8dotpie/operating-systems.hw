@@ -1,0 +1,29 @@
+0000-001f : dma1
+0020-0021 : pic1
+0040-0043 : timer0
+0050-0053 : timer1
+0060-0060 : keyboard
+0064-0064 : keyboard
+0070-0071 : rtc_cmos
+0080-008f : dma page reg
+00a0-00a1 : pic2
+00c0-00df : dma2
+00f0-00ff : fpu
+0cf8-0cff : PCI conf1
+
+NOTE: I'm working with the machine AlpineLinux from bellard.org
+Link: https://bellard.org/jslinux/vm.html?url=alpine-x86.cfg&mem=192
+The reason for this is that I have MacOS 11, which does not have
+/proc at all and implements everything using sysctl.
+That is why, for example, it may not work for you.
+"You did not copy all shared libraries" for example, is wrong, since
+I did, because Alpine I use has only /lib and no other shared libraries directories.
+
+Explanation:
+dma1   - Direct Memory Access Controller. It is used to provide temporary
+access to RAM without the need to use to CPU to increase data transfer speed.
+pic1   - Programmable Interrupt Controller. It is used to help a CPU to handle 
+interrupt requests. For example, when we have multiple interrupts, we can safely
+ignore one of them, while working with the other, since PIC will ensure we 
+resolved all existing interrupts.
+timer1 - 16 bit timer used to generate timing accurate interrupts.

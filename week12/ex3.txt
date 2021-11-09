@@ -1,0 +1,6 @@
+P + C -> "I passed the exam!"
+C + A + P -> "Get some cappucino!"
+I + L + O -> "I love operating systems course!"
+I passed the exam!
+Get some cappucino!
+I love operating systems course!
