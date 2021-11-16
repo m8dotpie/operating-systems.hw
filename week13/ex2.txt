@@ -1,0 +1,14 @@
+The worst deadlock dealing strategy is "Recovery". This strategy regularly
+checks whether deadlock occurs and recovers the system to the state without
+the deadlock loosing unsaved in persistent storage data, lowering machine
+performance during the recovery and requiring the checks themselves.
+A bit better approach is the avoidance. Avoidance strategy forces us to 
+analyze every step me make in order to try to keep our system in the safe state
+and perform only safe transitions. If the deadlock occurs we still need to backstep,
+however it happens much more rarely and does not reduce our performance so drastically
+even considering the need of some additional data for analysis.
+The best deadlock dealing strategy is prevention. The reason for that is that it is
+enough to eliminate any of the four conditions to make situation resolvable. Since
+we have different approaches for all of the conditions, it becomes relatively simple
+(in theory) to prevent deadlocks forever. However, on practice this algorithm
+seems to be the most complicated, but the most efficient.
